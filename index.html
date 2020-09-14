@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- головне зображення сайту -->
+	<meta property="og:image" content="#"/>
+	<title>map</title>
+</head>
+<body>
+<h1>
+	<img src="img/logo.png" width="220" alt="">
+</h1>
+	<ul class='count_ul'>
+		<li>
+			<a href="main.html" target="blanck">
+				main
+			</a>
+		</li>
+		<li>
+			<a href="main-v2.html" target="blanck">
+				main-v2
+			</a>
+		</li>
+		<li>
+			<a href="for-school-districts.html" target="blanck">
+				for-school-districts
+			</a>
+		</li>
+		<li>
+			<a href="for-school-districts-v2.html" target="blanck">
+				for-school-districts-v2
+			</a>
+		</li>
+		<li>
+			<a href="how-it-works.html" target="blanck">
+				how-it-works
+			</a>
+		</li>
+		<li>
+			<a href="how-it-works-2.html" target="blanck">
+				how-it-works-2
+			</a>
+		</li>
+		<li>
+			<a href="faqs.html" target="blanck">
+				faqs
+			</a>
+		</li>
+		<li>
+			<a href="Our-curriculum.html" target="blanck">
+				our-curriculum
+			</a>
+		</li>
+		<li>
+			<a href="custom-school-districts.html" target="blanck">
+				custom-school-districts
+			</a>
+		</li>
+		<li>
+			<a href="about.html" target="blanck">
+				about
+			</a>
+		</li>
+		<li>
+			<a href="pricing.html" target="blanck">
+				pricing
+			</a>
+		</li>
+		<li>
+			<a href="skiills-page.html" target="blanck">
+				skiills-page
+			</a>
+		</li>
+		<li>
+			<a href="Customers.html" target="blanck">
+				customers
+			</a>
+		</li>
+		<li>
+			<a href="goals-page.html" target="blanck">
+				goals-page
+			</a>
+		</li>
+		<li>
+			<a href="blog.html" target="blanck">
+				blog
+			</a>
+		</li>
+		<li>
+			<a href="blog-inner.html" target="blanck">
+				blog-inner
+			</a>
+		</li>
+		<li>
+			<a href="contact.html" target="blanck">
+				contact
+			</a>
+		</li>
+		<li>
+			<a href="inner-page.html" target="blanck">
+				inner-page
+			</a>
+		</li>
+		<li>
+			<a href="goal-poster.html" target="blanck">
+				goal-poster
+			</a>
+		</li>
+		<li>
+			<a href="video.html" target="blanck">
+				video
+			</a>
+		</li>
+		<li>
+			<a href="games.html" target="blanck">
+				games
+			</a>
+		</li>
+		<li>
+			<a href="acrivities.html" target="blanck">
+				acrivities
+			</a>
+		</li>
+	</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			font-family: Arial;
+		}
+		h1{
+			text-align: center;
+			margin: 10px 0;
+		}
+		ul.count_ul{
+			margin: 0;
+			width: 400px;
+			margin: auto;
+			border-top: 1px solid #ccc;
+			counter-reset: list1;
+			margin-bottom: 40px;
+		}
+		ul.count_ul > li{
+			list-style: none;
+			margin-bottom: 0px;
+			border: 1px solid #ccc;
+			border-top: none;
+			width: 100%;
+		}
+		ul.count_ul > li > a:before{
+			counter-increment: list1;
+			content: counter(list1) ". ";
+		}
+		a{
+			font-size: 18px;
+			color: #15669F;
+			text-decoration: none;
+			display: block;
+			padding: 6px 10px;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		ul.count_ul > li ul li{
+			list-style: none;
+			padding-left: 40px;
+			border-top: 1px solid #ccc;
+		}
+		ul.count_ul > li ul{
+			counter-reset: list2;
+		}
+		ul.count_ul > li ul a:before{
+			counter-increment: list2;
+			content: counter(list2) ". ";
+		}
+		p{
+			color: #f00;
+			padding: 4px 10px;
+		}
+	</style>
+</body>
+</html>
